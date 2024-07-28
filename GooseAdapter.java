@@ -1,0 +1,15 @@
+// 6510450399 Tibet Charoensripaiboon
+// 6510450399 ทิเบต เจริญศรีไพบูลย์
+
+public class GooseAdapter implements Quackable{
+    private Goose goose ;
+
+    public GooseAdapter(Goose goose) {
+        this.goose = goose;
+    }
+
+    public void quack() {
+        goose.honk();
+    }
+
+}
